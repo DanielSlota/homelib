@@ -79,4 +79,20 @@ public class User {
     }
 
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", studenIndex=" + studenIndex +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", canRentABook=" + canRentABook +
+                ", creaetdOn=" + creaetdOn +
+                ", role='" + role + '\'' +
+                ", sumOfBooksRented=" + sumOfBooksRented +
+                ", sumOfPeneltyToPay=" + sumOfPeneltyToPay +
+                ", librarys=" + librarys +
+                '}';
+    }
 }
